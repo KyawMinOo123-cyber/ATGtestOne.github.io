@@ -1,0 +1,510 @@
+.main{
+    width: 100vw;
+    position: relative;
+}
+/* login */
+.login{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.card-container , .card-container-create{
+    overflow: hidden;
+    position: absolute;
+    top: 50px;
+    left: 15%;
+    width: 70%;
+    height: 45vh;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.card-container-create{
+    height: 50vh;
+}
+
+.signIn{
+    width: 50%;
+    padding-left:50px ;
+}
+.signIn input{
+    width: 70%;
+}
+.signIn h1{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.signIn img{
+    margin-left: -10px;
+    width: 75%;
+    cursor: pointer;
+}
+.forgotPW{
+    width: 70%;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+}
+
+.loginBtn{
+    width: 70%;
+}
+
+.logoRight{
+    width: 50%;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.logoRight a{
+    text-decoration:none;
+}
+.navbar-expand-lg{
+    width: 100%;
+    display: flex;
+}
+
+.closeLogin , .closeCreate{
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    right: 150px;
+    top: 10px;
+    z-index: 11111;
+}
+.closeLogin i , .closeCreate i{
+    color: rgb(0,0,0,0.5);
+}
+
+/* creatAcc */
+.create{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.groupForm{
+    width: 70%;
+}
+
+.pwEye{
+    width: 70%;
+    position: relative;
+}
+.pwEye i{
+    position: absolute;
+    right: 10px;
+    z-index: 2222;
+}
+.privacy{
+    position: absolute;
+    bottom: 0;
+    margin-right: 5px;
+    font-weight: 400;
+    color: rgb(0,0,0,0.5);
+}
+
+/* create Acc end */
+
+/* session one start*/
+form{
+    margin-left:150px;
+}
+.form input{
+    width: 350px;
+}
+.collapse{
+    margin-left: 150px;
+}
+.image{
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    position: relative;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.labels{
+    width: 100%;
+    height:100%;
+    padding-left: 15%;
+    padding-top: 20%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0px;
+}
+/* session one end*/
+
+/* session2 start */
+.session-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.session-nav{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.nav-right{
+    display: flex;
+}
+.filter{
+    display: none;
+}
+
+.btn{
+    background-color: rgb(201, 201, 201,0.5);
+    font-weight: 700;
+
+}
+.userBtn{
+    background-color: rgb(68, 68, 255);
+}
+.leaveBtn{
+    background: none;
+    color: rgb(0,0,0,0.5);
+    display: none;
+}
+.userBtnGroup{
+    position: relative;
+    margin-left: 20px;
+}
+.plus{
+    position: relative;
+    left: 6%;
+}
+.nav-left{
+    height: 100%;
+    position: relative;
+}
+.ul{
+    padding: 0;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    opacity: 1;
+}
+.slider{
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    transition: 0.3s;
+}
+/*session 2 end*/
+
+
+ /* posts session */
+
+ .session-post{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+ }
+ .posts{
+    width: 60%;
+ }
+.article,h3{
+    font-weight: bold;
+}
+h3{
+    font-size: 15px;
+}
+.descOne{
+    font-size: 16px;
+}
+.title{
+    width: 100%;
+}
+.user , .userSarah{
+    width: 150px;
+    justify-content: space-between;
+}
+.editBtn{
+    flex-direction: column;
+    position: relative;
+}
+.edit{
+    border: none;
+    background: none;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.edit:hover{
+    background-color: rgb(205, 205, 205);
+}
+.editCollapse{
+    position: absolute;
+    width: 120px;
+    /* padding-top: 5px; */
+    right: 0;
+    top: 25px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+    background: #fff;
+}
+.editCollapse h3{
+    padding: 5px;
+    cursor: pointer;
+    margin: 0;
+}
+.editCollapse h3:hover{
+    background-color: rgb(62, 62, 255,0.8);
+    color: #fff;
+}
+.views{
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+}
+.viewCount, .eye{
+    font-size: 15px;
+    font-weight: bolder;
+    opacity: 0.8;
+}
+.btnShare{
+    border: none;
+}
+.shareBtn{
+    opacity: 0.8;
+}
+.posts{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+
+.calendar{
+    width: 60%;
+}
+.jobTitle{
+    width: 70%;
+}
+.finace{
+    font-size: 20px;
+}
+.websiteBtn{
+    width: 100%;
+    background: none;
+    color: #fd5151;
+}
+.jobBtn{
+    width: 100%;
+    background: none;
+    color: rgb(86, 189, 86);
+    font-size: 15px;
+}
+
+.clicked{
+    background-color: rgb(205, 205, 205);
+}
+.location{
+    margin-top: 20px;
+}
+.inputHolder{
+    border-bottom: 1px solid rgb(0,0,0,0.2);
+}
+.locationInput{
+    border: 0px solid;
+    background-color: transparent;
+    padding: 0;
+    padding-left: 5px;
+}
+.inputHolder input:focus{
+    outline: none;
+}
+.inputHolder i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cross{
+   opacity: 0;
+}
+
+.prompt i{
+    margin-right: 5px;
+}
+.prompt div{
+    font-size: 15px;
+    color: rgb(0,0,0,0.5);
+}
+
+.followsGP a{
+    margin-top: 100px;
+    text-decoration: none;
+    float: right;
+}
+.ulFollow{
+    position: relative;
+}
+.ulFollow li{
+    position: absolute;
+    display: block;
+    background-color: rgb(155, 154, 154,0.5);
+    padding:5px 10px;
+    border-radius: 15px;
+    font-size: 10px;
+}
+.liFollow0{
+    top: 15px;
+}
+.liFollow1{
+    top: 70px;
+}
+.liFollow2{
+    top: 130px;
+}
+.liFollow3{
+    top: 190px;
+}
+.contain{
+    color: #fff;
+}
+.followsGP{
+    display: none;
+}
+
+
+@media screen and (max-width:800px) {
+    .image{
+        height: 300px;
+    }
+}
+@media screen and (max-width:500px) {
+    .image{
+        height: 200px;
+    }
+}
+@media screen and (max-width:300px) {
+    .navbar img{
+        width: 50px;
+    }
+    .navbar .container{
+        justify-content: left;
+    }
+    .form{
+        margin: 0;
+        width: 100px;
+    }
+    .form input{
+        width: 100px;
+        font-size: 10px;
+    }
+    .image{
+        height: 100px;
+    }
+    .label , .para{
+        font-size: 10px;
+    }
+    .session-2{
+        display: block;
+    }
+    .session-nav{
+        width: 100%;
+        margin: 0;
+        height: 25px;
+    }
+    .nav-left{
+        width: 80%;
+        
+    }
+    .ul{
+        justify-content:left;
+        margin: 0;
+    }
+    .ul li{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .filter{
+        display: block;
+        font-size: 10px;
+        padding: 3px;
+    }
+    .write , .userBtnGroup{
+        display:none;
+    }
+    .session-post{
+        width: 100%;
+        display: block;
+    }
+    .posts{
+        width: 100%;
+    }
+    .location{
+        display: none;
+    }
+    .title h6,.title h3 , .card-body p , .foot-part h3,.viewCount , .editCollapse h3{
+        font-size: 10px;
+    }
+    .title img{
+        width: 10px;
+    }
+    .foot-part{
+        margin: 0;
+
+    }
+    .foot-part img{
+        width: 20px;
+    }
+    .foot-part div{
+        justify-content: left;
+    }
+    .foot-part h3{
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+    .filterCreate{
+        font-size: 5px;
+        margin-left: 30px;
+    }
+    .show{
+        padding: 0;
+        right: 0px;
+        text-align: right;
+    }
+    .show li{
+        font-size: 10px;
+        
+    }
+    .card-container , .card-container-create{
+        width: 100%;
+        left: 0;
+        border-radius: 0;
+        top: 10%;
+    }
+    .signIn{
+        padding-left: 5px;
+    }
+    .signIn h1 , .signIn input , .loginBtn ,.forgotPW , .logoRight p, .logoRight a
+    {
+        font-size: 10px;
+    }
+    .logoRight img{
+        width: 100%;
+    }
+}   
